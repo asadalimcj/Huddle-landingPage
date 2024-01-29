@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  margin-top: 10px;
+}
+section {
+  display: inline-flexbox;
+}
+
+/* Top-mobile-section  */
+#top-header {
+  padding: 20px 20px;
+  display: block;
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-size: cover;
+  height: 100vh;
+}
+.butt {
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  color: black;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+.butt:hover {
+  box-shadow: 3px 3px 3px 3px;
+}
+.StartButton {
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  color: white;
+  font-size: 18px;
+  border-radius: 25px;
+  width: 230px;
+  height: 50px;
+  background-color: hsl(322, 100%, 66%);
+  font-weight: bold;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.motivation {
+  padding-top: 100px;
+}
+.phoneImage img {
+  height: 500px;
+  width: 650px;
+}
+
+#meeting {
+  padding: 20px;
+  padding-bottom: 80px;
+  background-color: white;
+}
+.grow-text {
+}
+.grow-text h2,
+p {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.grow-together {
+  text-align: center;
+}
+.grow-together img {
+  height: 300px;
+  width: 350px;
+}
+.shadow {
+  box-shadow: 1px 1px 1px 1px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.middle-tag {
+  background-color: white;
+  text-align: center;
+  width: 50%;
+  height: 30%;
+  padding: 20px;
+  position: absolute;
+  bottom: -230%;
+  left: 25%;
+}
+
+/* comapny information */
+#last-part {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding: 20px;
+  padding-top: 100px;
+}
+.logos img {
+  float: left;
+}
+.mono {
+  margin: 10px;
+}
+.mono:hover {
+  color: hsl(322, 100%, 66%);
+}
+.last-content {
+  text-align: end;
+}
+.row {
+  padding: 20px;
+}
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
+
+/* for responsive layout */
+@media (max-width: 600px) {
+  .butt {
+    width: fit-content;
+  }
+  .motivation {
+    text-align: center;
+  }
+  .phoneImage img {
+    width: 400px;
+  }
+  #top-header {
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-size: cover;
+    height: 200vh;
+  }
+  .monogram {
+    text-align: center;
+  }
+  .middle-tag {
+    
+    width: 70%;
+    height: 31%;
+    bottom: -465%;
+    left: 15%;
+  }
+}
